@@ -31,3 +31,5 @@ Command `pwd` digunakan untuk menunjukkan di folder mana sekarang kita berada
 
 ## Installasi Apache2
 
+### 1. Jalankan command `sudo apt update && apt upgrade && apt install apache2` 
+### 2. 

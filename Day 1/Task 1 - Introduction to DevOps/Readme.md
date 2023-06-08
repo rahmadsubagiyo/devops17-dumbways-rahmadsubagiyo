@@ -46,4 +46,40 @@ Installasi Ubuntu Server di Multipass sangat mudah sekali. Cukup mengikuti pandu
 
 ### 1. Download Multipass
 
-Download aplikasi Multipass ke halaman [Multipass](https://www.multipass.run)
+Download aplikasi Multipass ke halaman [Multipass](https://www.multipass.run). Bisa langsung klik Install Now mapun klik tab Install
+
+![Halaman Awal Multipass](img/1.png)
+
+### 2. Pilih OS yang cocok dengan device kita
+
+Karena disini saya pakai Windows, maka saya pilih yang bergambar windows
+
+![Select OS to get Started](img/2.png)
+
+### 3. Setelah berhasil terdownload, double klik pada installer untuk melakukan proses installasi
+
+![Installer yang telah didownload](img/3.png)
+
+### 4. Lakukan Installasi seperti biasa
+
+![Window Installer](img/6.png)
+
+Saya memilih Oracle VM Virtualbox karena di device saya sudah terinstall aplikasi tersebut. Jika mengacu pada guide di [Multipass](https://www.multipass.run), device saya tidak mumpuni jika saya pilih yang Hyper V.
+![Window Hyper V atau Oracle Virtualbox](img/7.png)
+![Kenapa saya tidak memilih Hyper V](img/4.png)
+
+Jika Installasi berhasil, maka akan muncul seperti ini
+
+![Installasi berhasil](img/9.png)
+
+![Tampilan jika Installasi berhasil](img/10.png) ![Tampilan jika Installasi berhasil](img/11.png)
+
+Untuk mengecek versi yang berhasil terinstall, gunakan command `multipass version`. Untuk melihat list instance, gunakan command `multipass list`
+
+![Tampilan multipass version](img/17.png)
+
+Begini tampilan instance yang telah di install
+
+![Tampilan Instance](img/16.png)
+
+Jalankan command `sudo apt update` agar repository selalu terupdate
