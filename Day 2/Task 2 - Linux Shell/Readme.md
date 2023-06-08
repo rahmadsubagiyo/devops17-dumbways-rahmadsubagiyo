@@ -31,5 +31,17 @@ Command `pwd` digunakan untuk menunjukkan di folder mana sekarang kita berada
 
 ## Installasi Apache2
 
-### 1. Jalankan command `sudo apt update && apt upgrade && apt install apache2` 
-### 2. 
+### 1. Jalankan Instance yang akan digunakan
+### 2. Jalankan command `sudo apt update` untuk mengupdate repository, `sudo apt update` untuk mengupgrade packages di repository dan `sudo apt install apache2` untuk menginstall Apache2
+
+![update](img/1.png)
+![upgrade](img/2.png)
+![Install Apache2](img/3.png)
+
+Tambahan, bisa jalankan command `sudo apt install lynx` untuk tampilan yang lebih bagus
+
+![Install Lynx](img/4.png)
+
+### 3. Untuk check apakah Apache2 sudah terinstall, jalankan command `lynx http://10.0.2.15`
+
+![Check Apache2](img/5.png)
