@@ -83,3 +83,5 @@ Begini tampilan instance yang telah di install
 ![Tampilan Instance](img/16.png)
 
 Jalankan command `sudo apt update` agar repository selalu terupdate
+
+![Tampilan Update](img/16.png)
